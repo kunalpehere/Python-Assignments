@@ -5,10 +5,23 @@
 x = 47
 y = 6
 
-print(x + y)
-print(x - y)
-print(x * y)
-print(x / y)
-print(x // y)
-print(x % y)
-print(x ** y)
+Addition = x + y
+print(x + y, type(Addition))
+
+Subtraction = x - y
+print(x - y, type(Subtraction))
+
+Multiplication = x * y
+print(x * y, type(Multiplication))
+
+Division = x / y
+print(x / y, type(Division))
+
+Floor_Division = x // y
+print(x // y, type(Floor_Division))
+
+Modulus = x % y
+print(x % y, type(Modulus))
+
+Exponentiation = x ** y
+print(x ** y, type(Exponentiation))
